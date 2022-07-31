@@ -1,8 +1,8 @@
-#rustee
+# rustee
 
 rust implementation of unix `tee` with more features
 
-#Installation
+## Installation
 `$ cargo install rustee`
 
 `$ rt -h`
