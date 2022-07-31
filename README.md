@@ -2,6 +2,11 @@
 
 rust implementation of unix `tee` with more features
 
+#Installation
+`$ cargo install rustee`
+
+`$ rt -h`
+
 ```bash
 rustee 0.1.0
 Pipe stdin to stdout and file
