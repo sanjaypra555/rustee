@@ -51,7 +51,7 @@ fn get_unique_lines(is_unique: bool, output_file: &mut File) -> Result<HashSet<S
 
 fn trim_newline(s: &str) -> &str {
     if s.ends_with('\n') {
-        if s.ends_with('\r') {
+        if s.ends_with("\r\n") {
             return &s[0..s.len() - 2];
         }
         return &s[0..s.len() - 1];
